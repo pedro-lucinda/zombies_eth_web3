@@ -1,7 +1,6 @@
 // SPDX-License-Identifier: MIT
 pragma solidity >=0.5.0 <0.9.0;
-import "./ownable.sol";
-
+import "@openzeppelin/contracts/access/Ownable.sol";
 contract ZombieFactory is Ownable {
 
     event NewZombie(uint zombieId, string name, uint dna);
