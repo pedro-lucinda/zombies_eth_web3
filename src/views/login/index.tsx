@@ -1,7 +1,5 @@
 import React from 'react'
 
-export const Login = () => {
-  return (
-    <div>Login</div>
-  )
-}
+export const LoginView = () => {
+  return <div>Login</div>;
+};
